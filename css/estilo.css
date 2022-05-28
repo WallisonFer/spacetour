@@ -1,0 +1,98 @@
+
+body{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #444;
+}
+
+.container{
+    max-width: 1128px;
+}
+li{
+    list-style: none;
+}
+a{
+    color: #00ccff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.cabecalho{
+    width: 100%;
+    height: 48px;
+    margin: 40px 0;
+}
+
+.logo{
+    float: left;
+}
+
+.menu{
+    float: right;
+}
+
+.menu ul li a{
+    font-size: 20px;
+    margin:12px 0 0 24px;
+    color: #999;
+}
+
+.banner{
+    height: 450px;
+    margin-bottom: 35px;
+    display: flex;
+    position: relative;
+}
+
+
+.box{
+    width: 42.5%;
+    padding: 30px 48px;
+    position: absolute;
+    margin-top: 48px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.box p{
+    font-size: 20px;
+    color: #fff;
+}
+
+.box h1{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 200;
+    color: #fff;
+}
+
+.rodape{
+    width: 100%;
+    margin-bottom: 30px;
+    float: left;
+    font-size: 30px;
+}
+
+.rodape p{
+    margin-bottom: 0;
+}
+
+.rodape small{
+    font-size: 18px;
+}
+
+.rodape a{
+    font-size: 1rem;
+}
+
