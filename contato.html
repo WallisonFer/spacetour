@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spacetour</title>
+    <title>Spacetour - Contato</title>
     <link rel="stylesheet" href="./css/estilo.css">
     <script src="./js/script.js" defer></script>
 
@@ -19,7 +19,7 @@
                         <a href="./index.html">Home</a>
                         <a href="#">Sobre</a>
                         <a href="#">Pacotes</a>
-                        <a href="/contato.html">Contato</a>
+                        <a href="./contato.html">Contato</a>
                     </li>
                 </ul>
             </nav>
@@ -33,6 +33,34 @@
                 <a href="#">Leia depoimentos.</a>
             </div>
         </section>
+
+        <div class="formulario">
+            <h1>Possui interesse na viagem espacial? Realize seu cadastro abaixo.</h1>
+            <form action="contato.html" class="cadastro" method="get">
+                <div>
+                    <input type="text" name="nmUser" id="nmUserId" placeholder="Nome completo">
+                </div>
+                <div>
+                    <input type="email" name="emailUser" id="emailUserId" placeholder="E-mail">
+                </div>
+                <div>
+                    <input type="number" name="cpfUser" id="cpfUserId" placeholder="CPF">
+                </div>
+                <div>
+                    <input type="text" name="generoUser" id="generoId" placeholder="Gênero">
+                </div>
+                <div>
+                    <label>Data de nascimento <input type="date" name="dtNascimentoUser" id="dtNacimentoUserId"></label>
+                </div>
+                <div>
+                    <textarea name="mensagemUser" id="mensagemUserId" maxlength="500" placeholder="Qual a sua motivação para a viagem?"></textarea>
+                </div>
+                <div>
+                    <input type="button" id="btnEnviarId" value="Enviar">
+                </div>
+            </form>
+        </div>
+
 
         <footer class="rodape">
             <p>2022.Design Responsivo.</p>
