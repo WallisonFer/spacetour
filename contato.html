@@ -37,14 +37,14 @@
         <div class="formulario">
             <h1>Possui interesse na viagem espacial? Realize seu cadastro abaixo.</h1>
             <form action="contato.html" class="cadastro" method="get">
-                <div class="formTrue">
+                <div class="formTrue"><!-- LEMBRAR DE APAGAR -->
                     <input type="text" name="nmUser" id="nmUserId" placeholder="Nome completo">
                 </div>
                 <div>
                     <input type="email" name="emailUser" id="emailUserId" placeholder="E-mail">
                 </div>
                 <div>
-                    <input type="number" name="cpfUser" id="cpfUserId" placeholder="CPF">
+                    <input type="text" name="cpfUser" id="cpfUserId" placeholder="CPF" onkeydown="fMasc(this, mCPF)">
                 </div>
                 <div>
                     <input type="text" name="generoUser" id="generoId" placeholder="Gênero">
