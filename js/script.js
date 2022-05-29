@@ -55,7 +55,7 @@ botaoSubmit.addEventListener("click", ()=>{
     /* Enviar formulário */
 
     document.querySelector('.cadastro').submit()
-    
+    alert("Cadastro efetuado!")
     
 })
 
